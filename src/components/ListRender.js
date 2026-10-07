@@ -1,12 +1,12 @@
 import React, { useRef, useState } from "react";
 
 const items = Array.from({length: 50}, (_,i) => ({
-  id: i+1,
-  title: `Item ${i+1}`,
+  id: i,
+  title: `Item ${i}`,
   description: "Lorem ipsum dolor sit amet."
 }))
 
-const ITEM_HEIGHT = 100
+const ITEM_HEIGHT = 80
 const CONTAINER_HEIGHT = 500
 
 
